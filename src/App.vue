@@ -2,7 +2,6 @@
   <v-app>
     <v-main>
       <v-container>
-<!--         <v-img src="./assets/mft-lcars.png"> -->
           <v-sheet class="ma-2 pa-2">
             <v-row>
               <v-col>
@@ -22,7 +21,6 @@
               </v-col>
             </v-row>
           </v-sheet>
-<!--         </v-img> -->
       </v-container>
     </v-main>
   </v-app>
