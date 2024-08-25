@@ -1,0 +1,689 @@
+[
+    {
+      "season": 1,
+      "number": 1,
+      "title": "Broken Bow, Part I",
+      "synopsis": "Captain Archer and the crew of the Enterprise embark on their first mission, transporting a wounded Klingon back to his homeworld.",
+      "airDate": "September 26, 2001"
+    },
+    {
+      "season": 1,
+      "number": 2,
+      "title": "Broken Bow, Part II",
+      "synopsis": "The Enterprise crew faces their first major challenge as they navigate Klingon politics and confront the mysterious Suliban.",
+      "airDate": "September 26, 2001"
+    },
+    {
+      "season": 1,
+      "number": 3,
+      "title": "Fight or Flight",
+      "synopsis": "The crew discovers a derelict alien ship with its crew drained of fluids, leading to a confrontation with the perpetrators.",
+      "airDate": "October 3, 2001"
+    },
+    {
+      "season": 1,
+      "number": 4,
+      "title": "Strange New World",
+      "synopsis": "An away team experiences disturbing hallucinations on a seemingly idyllic planet, testing their trust in each other.",
+      "airDate": "October 10, 2001"
+    },
+    {
+      "season": 1,
+      "number": 5,
+      "title": "Unexpected",
+      "synopsis": "Trip Tucker becomes pregnant after an encounter with an alien species, leading to complications and cultural misunderstandings.",
+      "airDate": "October 17, 2001"
+    },
+    {
+      "season": 1,
+      "number": 6,
+      "title": "Terra Nova",
+      "synopsis": "The Enterprise investigates the fate of a long-lost human colony, only to find that the settlers have devolved into a primitive society.",
+      "airDate": "October 24, 2001"
+    },
+    {
+      "season": 1,
+      "number": 7,
+      "title": "The Andorian Incident",
+      "synopsis": "The Enterprise crew visits a Vulcan monastery, where they become embroiled in a conflict with the Andorians.",
+      "airDate": "October 31, 2001"
+    },
+    {
+      "season": 1,
+      "number": 8,
+      "title": "Breaking the Ice",
+      "synopsis": "The crew explores a comet and must rescue a stranded team member, while dealing with the tensions between T'Pol and the rest of the crew.",
+      "airDate": "November 7, 2001"
+    },
+    {
+      "season": 1,
+      "number": 9,
+      "title": "Civilization",
+      "synopsis": "The crew discovers a pre-industrial society being exploited by a more advanced alien race, leading to a delicate intervention.",
+      "airDate": "November 14, 2001"
+    },
+    {
+      "season": 1,
+      "number": 10,
+      "title": "Fortunate Son",
+      "synopsis": "The Enterprise comes to the aid of a human freighter attacked by Nausicaan pirates, but the situation grows tense when the freighter's crew seeks revenge.",
+      "airDate": "November 21, 2001"
+    },
+    {
+      "season": 1,
+      "number": 11,
+      "title": "Cold Front",
+      "synopsis": "A temporal agent from the future warns Archer about a Suliban plot, bringing the Enterprise into the Temporal Cold War.",
+      "airDate": "November 28, 2001"
+    },
+    {
+      "season": 1,
+      "number": 12,
+      "title": "Silent Enemy",
+      "synopsis": "The Enterprise faces a mysterious and powerful alien vessel that attacks without warning, forcing the crew to prepare for battle.",
+      "airDate": "January 16, 2002"
+    },
+    {
+      "season": 1,
+      "number": 13,
+      "title": "Dear Doctor",
+      "synopsis": "Dr. Phlox faces an ethical dilemma when the Enterprise encounters a species with a genetic illness that could determine their evolutionary future.",
+      "airDate": "January 23, 2002"
+    },
+    {
+      "season": 1,
+      "number": 14,
+      "title": "Sleeping Dogs",
+      "synopsis": "The crew discovers a disabled Klingon ship in a gas giant's atmosphere and must find a way to escape before they are trapped.",
+      "airDate": "January 30, 2002"
+    },
+    {
+      "season": 1,
+      "number": 15,
+      "title": "Shadows of P'Jem",
+      "synopsis": "Archer and T'Pol are captured by Andorians, and the situation complicates when the Vulcan High Command orders T'Pol's transfer.",
+      "airDate": "February 6, 2002"
+    },
+    {
+      "season": 1,
+      "number": 16,
+      "title": "Shuttlepod One",
+      "synopsis": "Trip and Reed are stranded in a damaged shuttlepod and believe that the Enterprise has been destroyed, leading to a tense struggle for survival.",
+      "airDate": "February 13, 2002"
+    },
+    {
+      "season": 1,
+      "number": 17,
+      "title": "Fusion",
+      "synopsis": "T'Pol confronts her emotions and past traumas when the Enterprise encounters a group of Vulcans who embrace their emotions.",
+      "airDate": "February 27, 2002"
+    },
+    {
+      "season": 1,
+      "number": 18,
+      "title": "Rogue Planet",
+      "synopsis": "The crew explores a dark, mysterious planet and Archer encounters an enigmatic alien entity with a connection to his past.",
+      "airDate": "March 20, 2002"
+    },
+    {
+      "season": 1,
+      "number": 19,
+      "title": "Acquisition",
+      "synopsis": "Ferengi pirates board the Enterprise and attempt to steal the ship's valuables, leading to a battle of wits with the crew.",
+      "airDate": "March 27, 2002"
+    },
+    {
+      "season": 1,
+      "number": 20,
+      "title": "Oasis",
+      "synopsis": "The crew discovers a seemingly abandoned alien ship, but the survivors harbor a dark secret about their existence.",
+      "airDate": "April 3, 2002"
+    },
+    {
+      "season": 1,
+      "number": 21,
+      "title": "Detained",
+      "synopsis": "Archer and Mayweather are captured by a Tandarans and placed in a detention camp where they encounter the Suliban.",
+      "airDate": "April 24, 2002"
+    },
+    {
+      "season": 1,
+      "number": 22,
+      "title": "Vox Sola",
+      "synopsis": "A strange alien organism invades the Enterprise, trapping several crew members, and the crew must find a way to communicate with it.",
+      "airDate": "May 1, 2002"
+    },
+    {
+      "season": 1,
+      "number": 23,
+      "title": "Fallen Hero",
+      "synopsis": "The Enterprise is tasked with transporting a disgraced Vulcan ambassador, but the mission becomes dangerous when they are pursued by hostile forces.",
+      "airDate": "May 8, 2002"
+    },
+    {
+      "season": 1,
+      "number": 24,
+      "title": "Desert Crossing",
+      "synopsis": "Archer and Trip are invited to a desert planet by a charismatic leader, but find themselves caught in the middle of a political conflict.",
+      "airDate": "May 8, 2002"
+    },
+    {
+      "season": 1,
+      "number": 25,
+      "title": "Two Days and Two Nights",
+      "synopsis": "The crew enjoys shore leave on the pleasure planet Risa, but their vacations are interrupted by unexpected complications.",
+      "airDate": "May 15, 2002"
+    },
+    {
+      "season": 1,
+      "number": 26,
+      "title": "Shockwave, Part I",
+      "synopsis": "A mission to a mining colony ends in disaster, leading to the suspension of the Enterprise's mission and a deeper involvement in the Temporal Cold War.",
+      "airDate": "May 22, 2002"
+    },
+    {
+        "season": 2,
+        "number": 1,
+        "title": "Shockwave, Part II",
+        "synopsis": "Archer and the Enterprise crew race to stop a temporal agent from altering history, while dealing with the aftermath of the mining colony disaster.",
+        "airDate": "September 18, 2002"
+    },
+    {
+        "season": 2,
+        "number": 2,
+        "title": "Carbon Creek",
+        "synopsis": "T'Pol tells the story of how Vulcans made first contact with humans in the 1950s, challenging the official history.",
+        "airDate": "September 25, 2002"
+    },
+    {
+        "season": 2,
+        "number": 3,
+        "title": "Minefield",
+        "synopsis": "The Enterprise becomes ensnared in a Romulan minefield, and Reed must undertake a dangerous mission to save the ship.",
+        "airDate": "October 2, 2002"
+    },
+    {
+        "season": 2,
+        "number": 4,
+        "title": "Dead Stop",
+        "synopsis": "After suffering severe damage, the Enterprise docks at an automated repair station, only to discover that it harbors a sinister secret.",
+        "airDate": "October 9, 2002"
+    },
+    {
+        "season": 2,
+        "number": 5,
+        "title": "A Night in Sickbay",
+        "synopsis": "Captain Archer faces a diplomatic crisis while dealing with his ailing dog Porthos and unresolved personal tensions.",
+        "airDate": "October 16, 2002"
+    },
+    {
+        "season": 2,
+        "number": 6,
+        "title": "Marauders",
+        "synopsis": "The crew helps a mining colony defend itself against Klingon marauders who have been extorting them for resources.",
+        "airDate": "October 30, 2002"
+    },
+    {
+        "season": 2,
+        "number": 7,
+        "title": "The Seventh",
+        "synopsis": "T'Pol is sent on a mission to capture a fugitive from her past, and must confront unresolved issues related to her previous command.",
+        "airDate": "November 6, 2002"
+    },
+    {
+        "season": 2,
+        "number": 8,
+        "title": "The Communicator",
+        "synopsis": "Archer and Reed accidentally leave a communicator on a pre-warp planet, leading to potential contamination of the society.",
+        "airDate": "November 13, 2002"
+    },
+    {
+        "season": 2,
+        "number": 9,
+        "title": "Singularity",
+        "synopsis": "The crew begins to exhibit obsessive behavior while investigating a black hole, leading to a near-catastrophic situation.",
+        "airDate": "November 20, 2002"
+    },
+    {
+        "season": 2,
+        "number": 10,
+        "title": "Vanishing Point",
+        "synopsis": "After experiencing transporter-related anomalies, Hoshi Sato begins to fear that she is fading out of existence.",
+        "airDate": "November 27, 2002"
+    },
+    {
+        "season": 2,
+        "number": 11,
+        "title": "Precious Cargo",
+        "synopsis": "Trip Tucker is captured by a group of aliens and must protect a kidnapped princess from their clutches.",
+        "airDate": "December 11, 2002"
+    },
+    {
+        "season": 2,
+        "number": 12,
+        "title": "The Catwalk",
+        "synopsis": "The crew takes refuge in the ship's catwalk during a dangerous radiation storm, leading to tense interactions in close quarters.",
+        "airDate": "December 18, 2002"
+    },
+    {
+        "season": 2,
+        "number": 13,
+        "title": "Dawn",
+        "synopsis": "Trip Tucker is stranded on a hostile planet and must work with a wounded alien to survive the harsh conditions.",
+        "airDate": "January 8, 2003"
+    },
+    {
+        "season": 2,
+        "number": 14,
+        "title": "Stigma",
+        "synopsis": "T'Pol faces prejudice and potential career-ending consequences when her secret battle with a Vulcan neurological disease is revealed.",
+        "airDate": "February 5, 2003"
+    },
+    {
+        "season": 2,
+        "number": 15,
+        "title": "Cease Fire",
+        "synopsis": "Archer is called upon to mediate a ceasefire between the Vulcans and Andorians, but the mission proves more difficult than expected.",
+        "airDate": "February 12, 2003"
+    },
+    {
+        "season": 2,
+        "number": 16,
+        "title": "Future Tense",
+        "synopsis": "The Enterprise discovers a mysterious ship that appears to have time-travel capabilities, drawing the attention of both the Suliban and the Tholians.",
+        "airDate": "February 19, 2003"
+    },
+    {
+        "season": 2,
+        "number": 17,
+        "title": "Canamar",
+        "synopsis": "Archer and Trip are wrongfully imprisoned in a brutal alien detention center and must find a way to escape.",
+        "airDate": "February 26, 2003"
+    },
+    {
+        "season": 2,
+        "number": 18,
+        "title": "The Crossing",
+        "synopsis": "Non-corporeal aliens take control of the crew's bodies, leading to a fight for survival aboard the Enterprise.",
+        "airDate": "April 2, 2003"
+    },
+    {
+        "season": 2,
+        "number": 19,
+        "title": "Judgment",
+        "synopsis": "Archer is captured and put on trial by the Klingons for his actions, leading to a tense courtroom drama.",
+        "airDate": "April 9, 2003"
+    },
+    {
+        "season": 2,
+        "number": 20,
+        "title": "Horizon",
+        "synopsis": "Mayweather returns to his family's cargo ship, only to find that his absence has created tensions and challenges.",
+        "airDate": "April 16, 2003"
+    },
+    {
+        "season": 2,
+        "number": 21,
+        "title": "The Breach",
+        "synopsis": "The Enterprise crew helps evacuate a group of Denobulan geologists from a war-torn planet, while Phlox confronts his own prejudices.",
+        "airDate": "April 23, 2003"
+    },
+    {
+        "season": 2,
+        "number": 22,
+        "title": "Cogenitor",
+        "synopsis": "Trip Tucker befriends a member of an alien species' third gender, leading to unintended consequences that challenge the crew's ethical beliefs.",
+        "airDate": "April 30, 2003"
+    },
+    {
+        "season": 2,
+        "number": 23,
+        "title": "Regeneration",
+        "synopsis": "The Enterprise encounters Borg drones who were revived after being frozen in the Arctic, leading to a deadly confrontation.",
+        "airDate": "May 7, 2003"
+    },
+    {
+        "season": 2,
+        "number": 24,
+        "title": "First Flight",
+        "synopsis": "Archer recalls his early days in the NX program and the loss of a close friend, as the Enterprise undertakes a dangerous mission.",
+        "airDate": "May 14, 2003"
+    },
+    {
+        "season": 2,
+        "number": 25,
+        "title": "Bounty",
+        "synopsis": "Archer is captured by a Tellarite bounty hunter, while T'Pol struggles with the effects of a contagious Vulcan condition.",
+        "airDate": "May 14, 2003"
+    },
+    {
+        "season": 2,
+        "number": 26,
+        "title": "The Expanse",
+        "synopsis": "A mysterious alien probe attacks Earth, prompting Archer and the crew to venture into the dangerous Delphic Expanse.",
+        "airDate": "May 21, 2003"
+    },
+    {
+        "season": 3,
+        "number": 1,
+        "title": "The Xindi",
+        "synopsis": "The Enterprise begins its mission in the Delphic Expanse to track down the Xindi and prevent them from destroying Earth.",
+        "airDate": "September 10, 2003"
+    },
+    {
+        "season": 3,
+        "number": 2,
+        "title": "Anomaly",
+        "synopsis": "The Enterprise encounters a series of spatial anomalies that damage the ship, while dealing with raiders who steal vital supplies.",
+        "airDate": "September 17, 3"
+    },
+    {
+        "season": 3,
+        "number": 3,
+        "title": "Extinction",
+        "synopsis": "Archer, Reed, and Hoshi are infected by a virus that alters their DNA, turning them into a different species.",
+        "airDate": "September 24, 2003"
+    },
+    {
+        "season": 3,
+        "number": 4,
+        "title": "Rajiin",
+        "synopsis": "The Enterprise takes on a mysterious passenger who turns out to be a spy for the Xindi, leading to a dangerous confrontation.",
+        "airDate": "October 1, 2003"
+    },
+    {
+        "season": 3,
+        "number": 5,
+        "title": "Impulse",
+        "synopsis": "The Enterprise encounters a Vulcan ship abandoned in a dangerous region, with its crew exhibiting violent behavior.",
+        "airDate": "October 8, 2003"
+    },
+    {
+        "season": 3,
+        "number": 6,
+        "title": "Exile",
+        "synopsis": "The Enterprise crew meets a mysterious alien who possesses information about the Xindi, but who has their own hidden agenda.",
+        "airDate": "October 15, 2003"
+    },
+    {
+        "season": 3,
+        "number": 7,
+        "title": "The Shipment",
+        "synopsis": "The crew discovers an alien freighter carrying a shipment that could be used by the Xindi to further their destructive plans.",
+        "airDate": "October 22, 2003"
+    },
+    {
+        "season": 3,
+        "number": 8,
+        "title": "Twilight",
+        "synopsis": "A temporal anomaly causes Archer and T'Pol to experience an alternate reality where the Xindi have destroyed Earth.",
+        "airDate": "October 29, 2003"
+    },
+    {
+        "season": 3,
+        "number": 9,
+        "title": "North Star",
+        "synopsis": "The Enterprise crew discovers a planet where humans have settled and are living under oppressive rule by an alien species.",
+        "airDate": "November 5, 2003"
+    },
+    {
+        "season": 3,
+        "number": 10,
+        "title": "Similitude",
+        "synopsis": "Archer faces a moral dilemma when the ship's only chance of survival requires sacrificing a clone of Trip Tucker.",
+        "airDate": "November 12, 2003"
+    },
+    {
+        "season": 3,
+        "number": 11,
+        "title": "Carpenter Street",
+        "synopsis": "Archer and T'Pol travel back in time to 21st-century Earth to stop a Xindi bioweapon plot.",
+        "airDate": "November 19, 2003"
+    },
+    {
+        "season": 3,
+        "number": 12,
+        "title": "Chosen Realm",
+        "synopsis": "Religious zealots hijack the Enterprise, believing the ship is key to their prophecy.",
+        "airDate": "January 14, 2004"
+    },
+    {
+        "season": 3,
+        "number": 13,
+        "title": "Proving Ground",
+        "synopsis": "The Andorians offer to help Enterprise in its mission to stop the Xindi weapon, but their motives are unclear.",
+        "airDate": "January 21, 2004"
+    },
+    {
+        "season": 3,
+        "number": 14,
+        "title": "Stratagem",
+        "synopsis": "Archer and Degra, the Xindi weapon designer, play a dangerous game of cat-and-mouse aboard a captured ship.",
+        "airDate": "February 4, 2004"
+    },
+    {
+        "season": 3,
+        "number": 15,
+        "title": "Harbinger",
+        "synopsis": "Tensions rise among the crew as they face an alien visitor who may hold the key to understanding the Delphic Expanse.",
+        "airDate": "February 11, 2004"
+    },
+    {
+        "season": 3,
+        "number": 16,
+        "title": "Doctor's Orders",
+        "synopsis": "Dr. Phlox must keep the ship running alone while the rest of the crew is in stasis during a perilous journey through a dangerous region of space.",
+        "airDate": "February 18, 2004"
+    },
+    {
+        "season": 3,
+        "number": 17,
+        "title": "Hatchery",
+        "synopsis": "Archer becomes obsessed with protecting a Xindi-Insectoid hatchery, leading the crew to question his judgment.",
+        "airDate": "February 25, 2004"
+    },
+    {
+        "season": 3,
+        "number": 18,
+        "title": "Azati Prime",
+        "synopsis": "The Enterprise reaches the Xindi weapon construction site, leading to a deadly confrontation and Archer's capture.",
+        "airDate": "March 3, 2004"
+    },
+    {
+        "season": 3,
+        "number": 19,
+        "title": "Damage",
+        "synopsis": "The ship is crippled, and Archer is forced to make a morally questionable decision to continue the mission.",
+        "airDate": "April 21, 2004"
+    },
+    {
+        "season": 3,
+        "number": 20,
+        "title": "The Forgotten",
+        "synopsis": "Archer struggles with the emotional fallout from his decisions as the crew continues to fight for their survival.",
+        "airDate": "April 28, 2004"
+    },
+    {
+        "season": 3,
+        "number": 21,
+        "title": "E²",
+        "synopsis": "Enterprise encounters an alternate version of itself from the future, and Archer must confront the potential consequences of his mission.",
+        "airDate": "May 5, 2004"
+    },
+    {
+        "season": 3,
+        "number": 22,
+        "title": "The Council",
+        "synopsis": "Archer and his crew finally confront the Xindi Council and attempt to prevent the launch of the superweapon.",
+        "airDate": "May 12, 2004"
+    },
+    {
+        "season": 3,
+        "number": 23,
+        "title": "Countdown",
+        "synopsis": "The Xindi superweapon is completed, and the crew races against time to prevent its deployment.",
+        "airDate": "May 19, 2004"
+    },
+    {
+        "season": 3,
+        "number": 24,
+        "title": "Zero Hour",
+        "synopsis": "In the season finale, Archer leads a final assault to destroy the Xindi superweapon and save Earth.",
+        "airDate": "May 26, 2004"
+    },
+    {
+        "season": 4,
+        "number": 1,
+        "title": "Storm Front, Part I",
+        "synopsis": "The Enterprise crew finds themselves in an alternate timeline where the Nazis have taken over the Eastern United States.",
+        "airDate": "October 8, 2004"
+    },
+    {
+        "season": 4,
+        "number": 2,
+        "title": "Storm Front, Part II",
+        "synopsis": "Archer and the crew work to correct the timeline, battling both the Nazis and temporal agents in the process.",
+        "airDate": "October 15, 2004"
+    },
+    {
+        "season": 4,
+        "number": 3,
+        "title": "Home",
+        "synopsis": "After returning to Earth, the crew struggles to adjust to normal life and deal with the emotional aftermath of their mission.",
+        "airDate": "October 22, 2004"
+    },
+    {
+        "season": 4,
+        "number": 4,
+        "title": "Borderland",
+        "synopsis": "The Enterprise crew faces off against genetically enhanced superhumans, descendants of Khan's followers.",
+        "airDate": "October 29, 2004"
+    },
+    {
+        "season": 4,
+        "number": 5,
+        "title": "Cold Station 12",
+        "synopsis": "Archer and his team discover a secret facility where unethical genetic experiments are being conducted on human embryos.",
+        "airDate": "November 5, 2004"
+    },
+    {
+        "season": 4,
+        "number": 6,
+        "title": "The Augments",
+        "synopsis": "The Enterprise crew must prevent a war when the Augments attempt to hijack a Klingon Bird-of-Prey.",
+        "airDate": "November 12, 2004"
+    },
+    {
+        "season": 4,
+        "number": 7,
+        "title": "The Forge",
+        "synopsis": "The crew travels to Vulcan to investigate the bombing of the Earth embassy and uncover a conspiracy within the Vulcan High Command.",
+        "airDate": "November 19, 2004"
+    },
+    {
+        "season": 4,
+        "number": 8,
+        "title": "Awakening",
+        "synopsis": "Archer and T'Pol delve deeper into the Vulcan conspiracy, encountering a group of renegade Vulcans with radical ideas.",
+        "airDate": "November 26, 2004"
+    },
+    {
+        "season": 4,
+        "number": 9,
+        "title": "Kir'Shara",
+        "synopsis": "Archer and T'Pol race against time to deliver the Kir'Shara, an ancient Vulcan artifact, to prevent a civil war on Vulcan.",
+        "airDate": "December 3, 2004"
+    },
+    {
+        "season": 4,
+        "number": 10,
+        "title": "Daedalus",
+        "synopsis": "The inventor of the transporter joins the Enterprise on a mission to rescue his son, lost in a transporter experiment gone wrong.",
+        "airDate": "January 14, 2005"
+    },
+    {
+        "season": 4,
+        "number": 11,
+        "title": "Observer Effect",
+        "synopsis": "Non-corporeal aliens observe the Enterprise crew as they face a deadly virus, evaluating humanity's worthiness for first contact.",
+        "airDate": "January 21, 2005"
+    },
+    {
+        "season": 4,
+        "number": 12,
+        "title": "Babel One",
+        "synopsis": "The Enterprise mediates peace talks between the Andorians and Tellarites, but a Romulan plot threatens to derail the negotiations.",
+        "airDate": "January 28, 2005"
+    },
+    {
+        "season": 4,
+        "number": 13,
+        "title": "United",
+        "synopsis": "Archer tries to unite the Andorians, Tellarites, and Vulcans to confront the Romulan threat.",
+        "airDate": "February 4, 2005"
+    },
+    {
+        "season": 4,
+        "number": 14,
+        "title": "The Aenar",
+        "synopsis": "The crew discovers that the Romulan drone ships are controlled by a telepathic Andorian subspecies known as the Aenar.",
+        "airDate": "February 11, 2005"
+    },
+    {
+        "season": 4,
+        "number": 15,
+        "title": "Affliction",
+        "synopsis": "Phlox is kidnapped by the Klingons to help them deal with a deadly virus, leading to the creation of the Klingon augment virus.",
+        "airDate": "February 18, 2005"
+    },
+    {
+        "season": 4,
+        "number": 16,
+        "title": "Divergence",
+        "synopsis": "Archer and the crew race to save Phlox and prevent the Klingon virus from spreading, while dealing with a divided Klingon Empire.",
+        "airDate": "February 25, 2005"
+    },
+    {
+        "season": 4,
+        "number": 17,
+        "title": "Bound",
+        "synopsis": "The Enterprise crew faces temptation and danger when three Orion women come aboard the ship with ulterior motives.",
+        "airDate": "April 15, 2005"
+    },
+    {
+        "season": 4,
+        "number": 18,
+        "title": "In a Mirror, Darkly, Part I",
+        "synopsis": "In the Mirror Universe, a power-hungry Archer seizes control of the ISS Enterprise and pursues a powerful alien ship.",
+        "airDate": "April 22, 2005"
+    },
+    {
+        "season": 4,
+        "number": 19,
+        "title": "In a Mirror, Darkly, Part II",
+        "synopsis": "Archer's quest for power in the Mirror Universe leads to betrayal and a struggle for control of the alien ship.",
+        "airDate": "April 29, 2005"
+    },
+    {
+        "season": 4,
+        "number": 20,
+        "title": "Demons",
+        "synopsis": "A xenophobic faction on Earth threatens to derail the formation of the United Federation of Planets.",
+        "airDate": "May 6, 2005"
+    },
+    {
+        "season": 4,
+        "number": 21,
+        "title": "Terra Prime",
+        "synopsis": "The crew must stop a radical group led by Terra Prime from using a deadly weapon to enforce their isolationist agenda.",
+        "airDate": "May 13, 2005"
+    },
+    {
+        "season": 4,
+        "number": 22,
+        "title": "These Are the Voyages...",
+        "synopsis": "In the series finale, a historical holoprogram reveals the final mission of the Enterprise crew and the signing of the Federation Charter.",
+        "airDate": "May 13, 2005"
+    }      
+]
+  
