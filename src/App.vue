@@ -27,7 +27,7 @@
         <v-row class="pa-1">
           <v-col v-for="show in shows" :key=showCardKey class="pa-2">
             <ShowCard
-              :imgSrc="getImage(getShowTitle(show))"
+              :imgSrc="getImage(show)"
               :showTitle="getShowTitle(show)"
               @update-filter="handleUpdateFilter"
             />
@@ -181,7 +181,8 @@ const handleUpdateFilter = (showTitle) => {
       }
 }
 
-const getImage = (showTitle) => {
+const getImage = (show) => {
+  const showTitle = getShowTitle(show)
     switch(showTitle) {
         case 'The Next Generation':
             return tngImg
