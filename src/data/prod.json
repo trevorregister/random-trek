@@ -1,0 +1,143 @@
+[
+    {
+      "season": 1,
+      "number": 1,
+      "title": "Lost & Found, Part 1",
+      "synopsis": "A group of young aliens find a derelict Starfleet ship and must learn how to operate it to escape their captors.",
+      "airDate": "October 28, 2021"
+    },
+    {
+      "season": 1,
+      "number": 2,
+      "title": "Lost & Found, Part 2",
+      "synopsis": "The crew continues to learn about their new ship as they navigate their way through uncharted space.",
+      "airDate": "October 28, 2021"
+    },
+    {
+      "season": 1,
+      "number": 3,
+      "title": "Starstruck",
+      "synopsis": "The crew encounters their first major challenge when they encounter an anomaly in space.",
+      "airDate": "November 4, 2021"
+    },
+    {
+      "season": 1,
+      "number": 4,
+      "title": "Dreamcatcher",
+      "synopsis": "The crew investigates a mysterious planet that taps into their deepest desires and fears.",
+      "airDate": "November 11, 2021"
+    },
+    {
+      "season": 1,
+      "number": 5,
+      "title": "Terror Firma",
+      "synopsis": "The crew must work together to escape the planet's grasp and get back on course.",
+      "airDate": "November 18, 2021"
+    },
+    {
+      "season": 1,
+      "number": 6,
+      "title": "Kobayashi",
+      "synopsis": "Dal takes the captain's chair to try his hand at the infamous Kobayashi Maru scenario.",
+      "airDate": "January 6, 2022"
+    },
+    {
+      "season": 1,
+      "number": 7,
+      "title": "First Con-tact",
+      "synopsis": "The crew encounters a Ferengi who has a complicated history with one of their own.",
+      "airDate": "January 13, 2022"
+    },
+    {
+      "season": 1,
+      "number": 8,
+      "title": "Time Amok",
+      "synopsis": "The crew must work together across different time periods to save their ship.",
+      "airDate": "January 20, 2022"
+    },
+    {
+      "season": 1,
+      "number": 9,
+      "title": "A Moral Star, Part 1",
+      "synopsis": "The crew makes a daring plan to rescue their captured friends and reclaim their ship.",
+      "airDate": "January 27, 2022"
+    },
+    {
+      "season": 1,
+      "number": 10,
+      "title": "A Moral Star, Part 2",
+      "synopsis": "The crew faces off against the Diviner in a final showdown to secure their freedom.",
+      "airDate": "February 3, 2022"
+    },
+    {
+      "season": 1,
+      "number": 11,
+      "title": "Asylum",
+      "synopsis": "The crew seeks asylum at a Federation outpost, but their plans are complicated by the Diviner's pursuit.",
+      "airDate": "October 27, 2022"
+    },
+    {
+      "season": 1,
+      "number": 12,
+      "title": "Let Sleeping Borg Lie",
+      "synopsis": "The crew encounters a dormant Borg cube and must navigate its dangers to secure vital information.",
+      "airDate": "November 3, 2022"
+    },
+    {
+      "season": 1,
+      "number": 13,
+      "title": "All the World's a Stage",
+      "synopsis": "The crew discovers a planet where the inhabitants have modeled their entire society on a Starfleet mission.",
+      "airDate": "November 10, 2022"
+    },
+    {
+      "season": 1,
+      "number": 14,
+      "title": "Crossroads",
+      "synopsis": "The crew faces difficult choices as they encounter familiar faces from Starfleet and the Diviner's forces.",
+      "airDate": "November 17, 2022"
+    },
+    {
+      "season": 1,
+      "number": 15,
+      "title": "Masquerade",
+      "synopsis": "Dal confronts his past and his identity while the crew tries to stay ahead of the Diviner.",
+      "airDate": "November 24, 2022"
+    },
+    {
+      "season": 1,
+      "number": 16,
+      "title": "Preludes",
+      "synopsis": "The crew learns more about each other's backgrounds as they prepare for their next move.",
+      "airDate": "December 1, 2022"
+    },
+    {
+      "season": 1,
+      "number": 17,
+      "title": "Ghost in the Machine",
+      "synopsis": "The crew faces a mysterious threat that challenges their trust in each other and their ship.",
+      "airDate": "December 8, 2022"
+    },
+    {
+      "season": 1,
+      "number": 18,
+      "title": "Mindwalk",
+      "synopsis": "An accident causes Dal and Admiral Janeway to swap bodies, complicating their mission.",
+      "airDate": "December 15, 2022"
+    },
+    {
+      "season": 1,
+      "number": 19,
+      "title": "Supernova, Part 1",
+      "synopsis": "The crew faces an overwhelming threat as the Diviner's plan reaches its climax.",
+      "airDate": "December 22, 2022"
+    },
+    {
+      "season": 1,
+      "number": 20,
+      "title": "Supernova, Part 2",
+      "synopsis": "In the season finale, the crew makes a last stand to save the galaxy and secure their future.",
+      "airDate": "December 29, 2022"
+    }
+  ]
+  

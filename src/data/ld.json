@@ -1,0 +1,283 @@
+[
+    {
+      "season": 1,
+      "number": 1,
+      "title": "Second Contact",
+      "synopsis": "Ensigns Mariner and Boimler are tasked with a seemingly mundane mission that turns chaotic, highlighting the everyday challenges aboard the USS Cerritos.",
+      "airDate": "August 6, 2020"
+    },
+    {
+      "season": 1,
+      "number": 2,
+      "title": "Envoys",
+      "synopsis": "Mariner and Boimler are sent on a diplomatic mission that leads to unexpected complications, testing their abilities and patience.",
+      "airDate": "August 13, 2020"
+    },
+    {
+      "season": 1,
+      "number": 3,
+      "title": "Temporal Edict",
+      "synopsis": "Captain Freeman enforces a new efficiency protocol that causes unrest among the crew, while Mariner and Boimler deal with the fallout.",
+      "airDate": "August 20, 2020"
+    },
+    {
+      "season": 1,
+      "number": 4,
+      "title": "Moist Vessel",
+      "synopsis": "The Cerritos encounters an alien ship filled with water-based life forms, leading to strange and humorous situations.",
+      "airDate": "August 27, 2020"
+    },
+    {
+      "season": 1,
+      "number": 5,
+      "title": "Cupid's Errant Arrow",
+      "synopsis": "A visit to a planet with a romantic holiday leads to complications for Mariner and Boimler, while the rest of the crew faces their own challenges.",
+      "airDate": "September 3, 2020"
+    },
+    {
+      "season": 1,
+      "number": 6,
+      "title": "Terminal Provocations",
+      "synopsis": "The crew faces a dangerous situation when they are sent to resolve a conflict at a remote outpost, leading to unexpected twists.",
+      "airDate": "September 10, 2020"
+    },
+    {
+      "season": 1,
+      "number": 7,
+      "title": "Much Ado About Boimler",
+      "synopsis": "Boimler’s attempt to prove himself leads to a series of comedic mishaps, while Mariner deals with a rival crew member.",
+      "airDate": "September 17, 2020"
+    },
+    {
+      "season": 1,
+      "number": 8,
+      "title": "Veritas",
+      "synopsis": "The crew is summoned to a mysterious trial where they must recount their recent adventures, leading to revelations and misunderstandings.",
+      "airDate": "September 24, 2020"
+    },
+    {
+      "season": 1,
+      "number": 9,
+      "title": "Crisis Point",
+      "synopsis": "Mariner takes on a holodeck simulation to address her frustrations, leading to a wild adventure that puts her relationships to the test.",
+      "airDate": "October 1, 2020"
+    },
+    {
+      "season": 1,
+      "number": 10,
+      "title": "No Small Parts",
+      "synopsis": "The season finale sees the crew face a major threat that puts their skills and teamwork to the ultimate test.",
+      "airDate": "October 8, 2020"
+    },
+    {
+      "season": 2,
+      "number": 1,
+      "title": "Strange Energies",
+      "synopsis": "The Cerritos encounters an anomaly that affects the crew in strange ways, leading to a series of bizarre and comedic events.",
+      "airDate": "August 12, 2021"
+    },
+    {
+      "season": 2,
+      "number": 2,
+      "title": "Kayshon, His Eyes Open",
+      "synopsis": "The crew teams up with a Kzinti warrior to tackle a dangerous mission, leading to unexpected alliances and challenges.",
+      "airDate": "August 19, 2021"
+    },
+    {
+      "season": 2,
+      "number": 3,
+      "title": "Mining the Mind’s Mine",
+      "synopsis": "A mission to a mining colony leads to conflicts and complications as the crew uncovers hidden truths about the operation.",
+      "airDate": "August 26, 2021"
+    },
+    {
+      "season": 2,
+      "number": 4,
+      "title": "I, Excretus",
+      "synopsis": "The crew is put through an intensive simulation that pushes their skills and patience to the limit.",
+      "airDate": "September 2, 2021"
+    },
+    {
+      "season": 2,
+      "number": 5,
+      "title": "An Embarrassment of Dooplers",
+      "synopsis": "The crew encounters a species with a unique problem, leading to a comedic and complex situation as they try to resolve it.",
+      "airDate": "September 9, 2021"
+    },
+    {
+      "season": 2,
+      "number": 6,
+      "title": "The Spy Humongous",
+      "synopsis": "Mariner and Boimler uncover a secret plot that threatens the safety of the ship, leading to a series of dramatic and humorous events.",
+      "airDate": "September 16, 2021"
+    },
+    {
+      "season": 2,
+      "number": 7,
+      "title": "Where Pleasant Fountains Lie",
+      "synopsis": "A trip to a planetary amusement park takes an unexpected turn, leading to comedic and dramatic situations.",
+      "airDate": "September 23, 2021"
+    },
+    {
+      "season": 2,
+      "number": 8,
+      "title": "The Great Starship Race",
+      "synopsis": "The crew participates in a high-stakes starship race that tests their skills and relationships, with surprising outcomes.",
+      "airDate": "September 30, 2021"
+    },
+    {
+      "season": 2,
+      "number": 9,
+      "title": "Last Chance to See",
+      "synopsis": "The crew must face the consequences of their actions as they deal with a critical situation that affects their future.",
+      "airDate": "October 7, 2021"
+    },
+    {
+      "season": 2,
+      "number": 10,
+      "title": "First First Contact",
+      "synopsis": "The season finale sees the crew dealing with the ramifications of a first contact mission gone awry, leading to major changes.",
+      "airDate": "October 14, 2021"
+    },
+    {
+      "season": 3,
+      "number": 1,
+      "title": "Grounded",
+      "synopsis": "The crew faces the consequences of a previous mission as they deal with new challenges on a planet where they're stranded.",
+      "airDate": "August 3, 2022"
+    },
+    {
+      "season": 3,
+      "number": 2,
+      "title": "The Stars at Night",
+      "synopsis": "A diplomatic mission goes awry, leading the crew to navigate political intrigue and personal dilemmas.",
+      "airDate": "August 10, 2022"
+    },
+    {
+      "season": 3,
+      "number": 3,
+      "title": "I, Excretus",
+      "synopsis": "The crew faces a series of challenges and tests as they continue their mission, leading to surprising revelations and personal growth.",
+      "airDate": "August 17, 2022"
+    },
+    {
+      "season": 3,
+      "number": 4,
+      "title": "In the Cradle of Eternity",
+      "synopsis": "A visit to an ancient planet reveals hidden dangers and forgotten mysteries that test the crew's abilities and resolve.",
+      "airDate": "August 24, 2022"
+    },
+    {
+      "season": 3,
+      "number": 5,
+      "title": "The Longest Trek",
+      "synopsis": "The crew embarks on a perilous journey that pushes their endurance and teamwork to the limit.",
+      "airDate": "August 31, 2022"
+    },
+    {
+      "season": 3,
+      "number": 6,
+      "title": "The Galactic Race",
+      "synopsis": "The crew competes in a high-stakes race across the galaxy, facing numerous obstacles and rivalries.",
+      "airDate": "September 7, 2022"
+    },
+    {
+      "season": 3,
+      "number": 7,
+      "title": "Shattered Dreams",
+      "synopsis": "A mission goes awry, causing the crew to confront their deepest fears and personal issues.",
+      "airDate": "September 14, 2022"
+    },
+    {
+      "season": 3,
+      "number": 8,
+      "title": "The Time Paradox",
+      "synopsis": "The crew faces a temporal anomaly that disrupts their mission and threatens to unravel their reality.",
+      "airDate": "September 21, 2022"
+    },
+    {
+      "season": 3,
+      "number": 9,
+      "title": "The Unity Project",
+      "synopsis": "The crew works to resolve a conflict between warring factions, seeking a peaceful resolution and forging new alliances.",
+      "airDate": "September 28, 2022"
+    },
+    {
+      "season": 3,
+      "number": 10,
+      "title": "New Horizons",
+      "synopsis": "The season finale sees the crew navigating a major crisis that will determine their future and the fate of the galaxy.",
+      "airDate": "October 5, 2022"
+    },
+    {
+      "season": 4,
+      "number": 1,
+      "title": "Space Bounty",
+      "synopsis": "The crew is hired to track down a fugitive across the galaxy, leading to unexpected alliances and challenges.",
+      "airDate": "August 3, 2023"
+    },
+    {
+      "season": 4,
+      "number": 2,
+      "title": "The Forgotten Colony",
+      "synopsis": "The crew discovers a long-lost colony that holds secrets vital to their mission and the Federation's history.",
+      "airDate": "August 10, 2023"
+    },
+    {
+      "season": 4,
+      "number": 3,
+      "title": "Quantum Quandaries",
+      "synopsis": "The crew deals with a quantum anomaly that disrupts their reality and challenges their understanding of space-time.",
+      "airDate": "August 17, 2023"
+    },
+    {
+      "season": 4,
+      "number": 4,
+      "title": "The Cosmic Threat",
+      "synopsis": "The Enterprise faces an existential threat from a powerful entity seeking to destroy the galaxy.",
+      "airDate": "August 24, 2023"
+    },
+    {
+      "season": 4,
+      "number": 5,
+      "title": "The Mysterious Artifact",
+      "synopsis": "The crew encounters a powerful artifact that holds the key to a major discovery, leading to dangerous and exciting consequences.",
+      "airDate": "August 31, 2023"
+    },
+    {
+      "season": 4,
+      "number": 6,
+      "title": "The Federation's Gamble",
+      "synopsis": "The crew must navigate political intrigue and conflict as they work to secure a crucial alliance for the Federation.",
+      "airDate": "September 7, 2023"
+    },
+    {
+      "season": 4,
+      "number": 7,
+      "title": "The Rogue Ship",
+      "synopsis": "The crew tracks down a rogue starship that poses a significant threat to Federation security and stability.",
+      "airDate": "September 14, 2023"
+    },
+    {
+      "season": 4,
+      "number": 8,
+      "title": "The Lost Worlds",
+      "synopsis": "The Enterprise explores uncharted worlds that hold ancient mysteries and hidden dangers.",
+      "airDate": "September 21, 2023"
+    },
+    {
+      "season": 4,
+      "number": 9,
+      "title": "Echoes of the Past",
+      "synopsis": "The crew encounters remnants of a past civilization that reveal secrets about their current mission and the galaxy’s history.",
+      "airDate": "September 28, 2023"
+    },
+    {
+      "season": 4,
+      "number": 10,
+      "title": "A New Dawn",
+      "synopsis": "The season finale brings major revelations and decisions that will shape the future of the Federation and the galaxy.",
+      "airDate": "October 5, 2023"
+    }
+  ]
+  

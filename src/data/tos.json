@@ -1,0 +1,556 @@
+[
+    {
+      "season": 1,
+      "episode": 1,
+      "title": "The Man Trap",
+      "synopsis": "The Enterprise crew encounters a shape-shifting alien that drains the salt from human bodies, leading to a deadly confrontation.",
+      "airDate": "September 8, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 2,
+      "title": "Charlie X",
+      "synopsis": "A young boy with extraordinary powers causes havoc aboard the Enterprise as he struggles to fit in with the crew.",
+      "airDate": "September 15, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 3,
+      "title": "Where No Man Has Gone Before",
+      "synopsis": "The Enterprise ventures to the edge of the galaxy, where two crew members gain god-like powers with dangerous consequences.",
+      "airDate": "September 22, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 4,
+      "title": "The Naked Time",
+      "synopsis": "A strange virus causes the Enterprise crew to lose their inhibitions, leading to chaos aboard the ship.",
+      "airDate": "September 29, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 5,
+      "title": "The Enemy Within",
+      "synopsis": "A transporter malfunction splits Captain Kirk into two beings: one good, one evil.",
+      "airDate": "October 6, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 6,
+      "title": "Mudd's Women",
+      "synopsis": "The Enterprise rescues a group of women being transported by a charismatic con man, Harry Mudd, who has his own agenda.",
+      "airDate": "October 13, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 7,
+      "title": "What Are Little Girls Made Of?",
+      "synopsis": "Nurse Chapel's fiancé, Dr. Roger Korby, is found alive on a distant planet, but he has been conducting questionable experiments.",
+      "airDate": "October 20, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 8,
+      "title": "Miri",
+      "synopsis": "The Enterprise crew discovers a planet populated only by children who contract a deadly disease when they reach puberty.",
+      "airDate": "October 27, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 9,
+      "title": "Dagger of the Mind",
+      "synopsis": "Kirk and Dr. Helen Noel investigate a mental hospital where a new device is being used to control minds.",
+      "airDate": "November 3, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 10,
+      "title": "The Corbomite Maneuver",
+      "synopsis": "The Enterprise encounters a massive alien ship that threatens to destroy them, leading Kirk to use a clever bluff to save his crew.",
+      "airDate": "November 10, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 11,
+      "title": "The Menagerie, Part I",
+      "synopsis": "Spock kidnaps the ship's former captain, Christopher Pike, and sets a course for the forbidden planet Talos IV.",
+      "airDate": "November 17, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 12,
+      "title": "The Menagerie, Part II",
+      "synopsis": "Kirk and the crew watch Spock's court-martial unfold as they learn about Pike's earlier mission to Talos IV.",
+      "airDate": "November 24, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 13,
+      "title": "The Conscience of the King",
+      "synopsis": "Kirk suspects that a Shakespearean actor touring the galaxy may be a notorious mass murderer in hiding.",
+      "airDate": "December 8, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 14,
+      "title": "Balance of Terror",
+      "synopsis": "The Enterprise engages in a cat-and-mouse battle with a Romulan ship that threatens to ignite a war between the two species.",
+      "airDate": "December 15, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 15,
+      "title": "Shore Leave",
+      "synopsis": "The crew visits a seemingly idyllic planet for some much-needed rest, but their thoughts mysteriously come to life.",
+      "airDate": "December 29, 1966"
+    },
+    {
+      "season": 1,
+      "episode": 16,
+      "title": "The Galileo Seven",
+      "synopsis": "Spock leads a shuttlecraft crew on a mission to explore a mysterious planet, but they are stranded and face deadly creatures.",
+      "airDate": "January 5, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 17,
+      "title": "The Squire of Gothos",
+      "synopsis": "The Enterprise crew is captured by an alien being who enjoys playing god and toying with their lives.",
+      "airDate": "January 12, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 18,
+      "title": "Arena",
+      "synopsis": "Kirk is forced to fight an alien captain one-on-one to settle a dispute between their two species.",
+      "airDate": "January 19, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 19,
+      "title": "Tomorrow Is Yesterday",
+      "synopsis": "The Enterprise is accidentally sent back in time to 20th-century Earth and must avoid altering history.",
+      "airDate": "January 26, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 20,
+      "title": "Court Martial",
+      "synopsis": "Kirk is put on trial for the death of a crewman, but he suspects that he is being framed.",
+      "airDate": "February 2, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 21,
+      "title": "The Return of the Archons",
+      "synopsis": "The Enterprise crew discovers a planet where the population is controlled by a mysterious computer named Landru.",
+      "airDate": "February 9, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 22,
+      "title": "Space Seed",
+      "synopsis": "The Enterprise discovers a 20th-century spaceship containing genetically enhanced humans, including the tyrant Khan Noonien Singh.",
+      "airDate": "February 16, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 23,
+      "title": "A Taste of Armageddon",
+      "synopsis": "The Enterprise encounters a civilization engaged in a simulated war that kills real people, and Kirk intervenes.",
+      "airDate": "February 23, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 24,
+      "title": "This Side of Paradise",
+      "synopsis": "The crew visits a planet where the colonists live in perfect happiness, but at the cost of their free will.",
+      "airDate": "March 2, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 25,
+      "title": "The Devil in the Dark",
+      "synopsis": "Kirk and Spock investigate a mining colony being terrorized by a creature that turns out to be a misunderstood life form.",
+      "airDate": "March 9, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 26,
+      "title": "Errand of Mercy",
+      "synopsis": "The Enterprise is sent to protect a peaceful planet from the Klingons, but the inhabitants have their own secret.",
+      "airDate": "March 23, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 27,
+      "title": "The Alternative Factor",
+      "synopsis": "The Enterprise encounters a man who claims to be fighting an evil version of himself from a parallel universe.",
+      "airDate": "March 30, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 28,
+      "title": "The City on the Edge of Forever",
+      "synopsis": "Kirk, Spock, and McCoy are trapped in the past and must prevent a tragic event that could alter the course of history.",
+      "airDate": "April 6, 1967"
+    },
+    {
+      "season": 1,
+      "episode": 29,
+      "title": "Operation -- Annihilate!",
+      "synopsis": "The Enterprise must stop a deadly parasite that is taking over a colony and threatening the galaxy.",
+      "airDate": "April 13, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 1,
+        "title": "Amok Time",
+        "synopsis": "Spock must return to Vulcan to marry or face death, leading to a battle with Kirk.",
+        "airDate": "September 15, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 2,
+        "title": "Who Mourns for Adonais?",
+        "synopsis": "The Enterprise encounters a being claiming to be the Greek god Apollo, who demands the crew worship him.",
+        "airDate": "September 22, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 3,
+        "title": "The Changeling",
+        "synopsis": "A powerful space probe, Nomad, mistakes Kirk for its creator and threatens to destroy the Enterprise.",
+        "airDate": "September 29, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 4,
+        "title": "Mirror, Mirror",
+        "synopsis": "A transporter malfunction sends Kirk and his officers to a parallel universe where the Federation is a brutal empire.",
+        "airDate": "October 6, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 5,
+        "title": "The Apple",
+        "synopsis": "The Enterprise crew discovers a paradise planet where the inhabitants are controlled by a computer god.",
+        "airDate": "October 13, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 6,
+        "title": "The Doomsday Machine",
+        "synopsis": "The Enterprise encounters a planet-killing machine and a starship captain bent on destroying it at any cost.",
+        "airDate": "October 20, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 7,
+        "title": "Catspaw",
+        "synopsis": "The crew encounters a pair of aliens who use magical powers to control them in a Halloween-themed episode.",
+        "airDate": "October 27, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 8,
+        "title": "I, Mudd",
+        "synopsis": "The crew is captured by a planet of androids led by Harry Mudd, who plans to use them to take over the galaxy.",
+        "airDate": "November 3, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 9,
+        "title": "Metamorphosis",
+        "synopsis": "Kirk, Spock, and McCoy meet Zefram Cochrane, the inventor of warp drive, who is living with a non-corporeal being.",
+        "airDate": "November 10, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 10,
+        "title": "Journey to Babel",
+        "synopsis": "The Enterprise transports a group of diplomats, including Spock's parents, to a conference, but a mysterious assassin is on board.",
+        "airDate": "November 17, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 11,
+        "title": "Friday's Child",
+        "synopsis": "The Enterprise becomes involved in a power struggle on a primitive planet, where a pregnant woman holds the key to peace.",
+        "airDate": "December 1, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 12,
+        "title": "The Deadly Years",
+        "synopsis": "The crew contracts a disease that causes them to age rapidly, threatening their lives and the mission.",
+        "airDate": "December 8, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 13,
+        "title": "Obsession",
+        "synopsis": "Kirk becomes obsessed with hunting down a deadly creature that killed many of his former crewmates.",
+        "airDate": "December 15, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 14,
+        "title": "Wolf in the Fold",
+        "synopsis": "Scotty is accused of a series of murders while on shore leave, and the crew must prove his innocence.",
+        "airDate": "December 22, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 15,
+        "title": "The Trouble with Tribbles",
+        "synopsis": "The Enterprise is overrun by adorable, rapidly multiplying creatures called tribbles, which cause chaos on the ship.",
+        "airDate": "December 29, 1967"
+    },
+    {
+        "season": 2,
+        "episode": 16,
+        "title": "The Gamesters of Triskelion",
+        "synopsis": "Kirk, Uhura, and Chekov are abducted and forced to fight in gladiatorial games for the entertainment of alien beings.",
+        "airDate": "January 5, 1968"
+    },
+    {
+        "season": 2,
+        "episode": 17,
+        "title": "A Piece of the Action",
+        "synopsis": "The crew discovers a planet where an Earth book on gangsters has shaped the entire culture.",
+        "airDate": "January 12, 1968"
+    },
+    {
+        "season": 2,
+        "episode": 18,
+        "title": "The Immunity Syndrome",
+        "synopsis": "The Enterprise investigates the destruction of a starship and discovers a massive, energy-draining space organism.",
+        "airDate": "January 19, 1968"
+    },
+    {
+        "season": 2,
+        "episode": 19,
+        "title": "A Private Little War",
+        "synopsis": "Kirk must arm a peaceful tribe with advanced weapons to counterbalance an opposing tribe supplied by the Klingons.",
+        "airDate": "February 2, 1968"
+    },
+    {
+        "season": 2,
+        "episode": 20,
+        "title": "Return to Tomorrow",
+        "synopsis": "The Enterprise encounters three disembodied beings who wish to borrow the bodies of the crew to build new ones.",
+        "airDate": "February 9, 1968"
+    },
+    {
+        "season": 2,
+        "episode": 21,
+        "title": "Patterns of Force",
+        "synopsis": "The crew finds a planet where a Federation historian has recreated Nazi Germany, with deadly consequences.",
+        "airDate": "February 16, 1968"
+    },
+    {
+        "season": 2,
+        "episode": 22,
+        "title": "By Any Other Name",
+        "synopsis": "Aliens take control of the Enterprise, planning to use it to conquer the galaxy, but they struggle to adapt to human emotions.",
+        "airDate": "February 23, 1968"
+    },
+    {
+        "season": 2,
+        "episode": 23,
+        "title": "The Omega Glory",
+        "synopsis": "The Enterprise crew finds a planet where two warring factions have developed into parallels of Earth’s East and West.",
+        "airDate": "March 1, 1968"
+    },
+    {
+        "season": 2,
+        "episode": 24,
+        "title": "The Ultimate Computer",
+        "synopsis": "The Enterprise tests a new supercomputer designed to take over starship operations, but it proves dangerously flawed.",
+        "airDate": "March 8, 1968"
+    },
+    {
+        "season": 2,
+        "episode": 25,
+        "title": "Bread and Circuses",
+        "synopsis": "The crew discovers a planet with a society resembling ancient Rome, where gladiatorial games are broadcast on television.",
+        "airDate": "March 15, 1968"
+    },
+    {
+        "season": 2,
+        "episode": 26,
+        "title": "Assignment: Earth",
+        "synopsis": "Kirk and Spock travel back to 1960s Earth to stop an alien agent from interfering with history.",
+        "airDate": "March 29, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 1,
+        "title": "Spock's Brain",
+        "synopsis": "An alien woman steals Spock's brain, and the crew has only hours to retrieve it before he dies.",
+        "airDate": "September 20, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 2,
+        "title": "The Enterprise Incident",
+        "synopsis": "Kirk and Spock undertake a secret mission to steal a Romulan cloaking device.",
+        "airDate": "September 27, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 3,
+        "title": "The Paradise Syndrome",
+        "synopsis": "Kirk suffers from amnesia and is mistaken for a god by a primitive tribe on a planet facing destruction.",
+        "airDate": "October 4, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 4,
+        "title": "And the Children Shall Lead",
+        "synopsis": "The Enterprise rescues a group of children who are under the influence of an evil alien being.",
+        "airDate": "October 11, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 5,
+        "title": "Is There in Truth No Beauty?",
+        "synopsis": "A telepathic ambassador, whose appearance causes madness, travels on the Enterprise, leading to a dangerous situation.",
+        "airDate": "October 18, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 6,
+        "title": "Spectre of the Gun",
+        "synopsis": "Kirk and his crew are forced to reenact the gunfight at the O.K. Corral in an alien-controlled simulation.",
+        "airDate": "October 25, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 7,
+        "title": "Day of the Dove",
+        "synopsis": "An alien entity forces the crew of the Enterprise and a Klingon crew to battle each other, feeding off their hatred.",
+        "airDate": "November 1, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 8,
+        "title": "For the World is Hollow and I Have Touched the Sky",
+        "synopsis": "The Enterprise discovers a generation ship whose inhabitants are unaware that they are on a ship, not a planet.",
+        "airDate": "November 8, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 9,
+        "title": "The Tholian Web",
+        "synopsis": "The Enterprise becomes trapped in an energy web created by the Tholians, and Kirk is lost in another dimension.",
+        "airDate": "November 15, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 10,
+        "title": "Plato's Stepchildren",
+        "synopsis": "Kirk and his crew are forced to serve a group of telekinetic beings who model their society on ancient Greece.",
+        "airDate": "November 22, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 11,
+        "title": "Wink of an Eye",
+        "synopsis": "The Enterprise is invaded by a race of hyper-accelerated aliens who attempt to take over the ship.",
+        "airDate": "November 29, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 12,
+        "title": "The Empath",
+        "synopsis": "Kirk, Spock, and McCoy are subjected to torturous experiments by aliens testing the compassion of a mute empath.",
+        "airDate": "December 6, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 13,
+        "title": "Elaan of Troyius",
+        "synopsis": "The Enterprise must transport a reluctant bride, Elaan, who has the power to control men, to her wedding.",
+        "airDate": "December 20, 1968"
+    },
+    {
+        "season": 3,
+        "episode": 14,
+        "title": "Whom Gods Destroy",
+        "synopsis": "Kirk and Spock are captured by a megalomaniacal former starship captain who has taken over a mental asylum.",
+        "airDate": "January 3, 1969"
+    },
+    {
+        "season": 3,
+        "episode": 15,
+        "title": "Let That Be Your Last Battlefield",
+        "synopsis": "The Enterprise encounters two aliens whose hatred for each other threatens to destroy them both.",
+        "airDate": "January 10, 1969"
+    },
+    {
+        "season": 3,
+        "episode": 16,
+        "title": "The Mark of Gideon",
+        "synopsis": "Kirk is abducted to a planet suffering from extreme overpopulation, where his disease is seen as a possible cure.",
+        "airDate": "January 17, 1969"
+    },
+    {
+        "season": 3,
+        "episode": 17,
+        "title": "That Which Survives",
+        "synopsis": "The Enterprise is stalked by a deadly, mysterious woman who can kill with a touch.",
+        "airDate": "January 24, 1969"
+    },
+    {
+        "season": 3,
+        "episode": 18,
+        "title": "The Lights of Zetar",
+        "synopsis": "A mysterious energy cloud invades the Enterprise, threatening the crew and a lieutenant who seems linked to it.",
+        "airDate": "January 31, 1969"
+    },
+    {
+        "season": 3,
+        "episode": 19,
+        "title": "Requiem for Methuselah",
+        "synopsis": "Kirk, Spock, and McCoy meet a reclusive immortal who has lived for thousands of years and who falls in love with a beautiful android.",
+        "airDate": "February 14, 1969"
+    },
+    {
+        "season": 3,
+        "episode": 20,
+        "title": "The Way to Eden",
+        "synopsis": "The Enterprise encounters a group of space hippies searching for a fabled paradise planet.",
+        "airDate": "February 21, 1969"
+    },
+    {
+        "season": 3,
+        "episode": 21,
+        "title": "The Cloud Minders",
+        "synopsis": "Kirk becomes involved in a class struggle on a planet where the elite live in a floating city while the workers toil below.",
+        "airDate": "February 28, 1969"
+    },
+    {
+        "season": 3,
+        "episode": 22,
+        "title": "The Savage Curtain",
+        "synopsis": "Kirk and Spock are forced to fight alongside historical figures in a battle orchestrated by a powerful alien.",
+        "airDate": "March 7, 1969"
+    },
+    {
+        "season": 3,
+        "episode": 23,
+        "title": "All Our Yesterdays",
+        "synopsis": "Kirk, Spock, and McCoy are trapped in different time periods of a dying planet's history.",
+        "airDate": "March 14, 1969"
+    },
+    {
+        "season": 3,
+        "episode": 24,
+        "title": "Turnabout Intruder",
+        "synopsis": "A vengeful woman exchanges bodies with Kirk and tries to take command of the Enterprise.",
+        "airDate": "June 3, 1969"
+    }
+  ]
+  
