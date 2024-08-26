@@ -26,22 +26,22 @@ const isFiltered = ref(false)
 const getImage = (showTitle) => {
     switch(showTitle) {
         case 'The Next Generation':
-            imgSrc.value = './assets/tng.jpg'
+            imgSrc.value = '/assets/tng.jpg'
             break
         case 'Deep Space Nine':
-            imgSrc.value = './assets/ds9.jpeg'
+            imgSrc.value = '/assets/ds9.jpeg'
             break
         case 'Enterprise':
-            imgSrc.value = './assets/ent.jpg'
+            imgSrc.value = '/assets/ent.jpg'
             break
         case 'The Original Series':
-            imgSrc.value = './assets/tos.jpg'
+            imgSrc.value = '/assets/tos.jpg'
             break
         case 'Discovery':
-            imgSrc.value = './assets/disc.png'
+            imgSrc.value = '/assets/disc.png'
             break
         case 'Voyager':
-            imgSrc.value = './assets/voy.jpg'
+            imgSrc.value = '/assets/voy.jpg'
             break
         case 'Lower Decks':
             imgSrc.value = './assets/ld.jpg'
