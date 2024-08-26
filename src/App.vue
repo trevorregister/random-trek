@@ -19,6 +19,11 @@
               Engage!
             </v-btn>
           </v-col>
+          <v-col>
+            <v-btn @click="resetFilter" class="bg-white">
+              Reset filter
+            </v-btn>
+          </v-col>
         </v-row>
         <h2 class="pt-5">Click a show to filter it out</h2>
         <v-row class="pa-1">
@@ -36,7 +41,7 @@
 </template>
 
 <script setup>
-import { ref, onBeforeMount } from 'vue'
+import { ref, onBeforeMount, defineEmits } from 'vue'
 import tngEpisodes from './data/tng.json'
 import ds9Episodes from './data/ds9.json'
 import entEpisodes from './data/ent.json'
@@ -66,6 +71,8 @@ const shows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod])
 const queryShows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod])
 const episode = ref({})
 
+const emits = defineEmits(['resetFilter'])
+
 const getRandomEpisode = () => {
   const show = _.shuffle(queryShows.value)[0]
   const episode = _.shuffle(show.value)[0]
@@ -84,6 +91,7 @@ const updateEpisode = () => {
 
 const resetFilter = () => {
   queryShows.value = [tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod]
+  emits('resetFilter')
 }
 
 const getShowTitle = (show) => {
