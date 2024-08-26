@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <v-main>
-    <v-img src="./assets/stars.jpeg">
+    <v-img src="./assets/stars.jpeg" cover>
       <v-container>
         <v-row>
           <v-col>
@@ -15,19 +15,17 @@
         </v-row>
         <v-row>
           <v-col>
-            <v-btn @click="updateEpisode" class="bg-white">
+            <v-btn @click="updateEpisode" class="bg-white ma-2 pa-2">
               Engage!
             </v-btn>
-          </v-col>
-          <v-col>
-            <v-btn @click="resetFilter" class="bg-white">
+            <v-btn @click="resetFilter" class="bg-white ma-2 pa-2">
               Reset filter
             </v-btn>
           </v-col>
         </v-row>
         <h2 class="pt-5">Click a show to filter it out</h2>
         <v-row class="pa-1">
-          <v-col v-for="show in shows" class="pa-2">
+          <v-col v-for="show in shows" :key=showCardKey class="pa-2">
             <ShowCard
               :showTitle="getShowTitle(show)"
               @update-filter="handleUpdateFilter"
@@ -41,7 +39,7 @@
 </template>
 
 <script setup>
-import { ref, onBeforeMount, defineEmits } from 'vue'
+import { ref, onBeforeMount } from 'vue'
 import tngEpisodes from './data/tng.json'
 import ds9Episodes from './data/ds9.json'
 import entEpisodes from './data/ent.json'
@@ -70,8 +68,7 @@ const prod = ref(prodEpisodes)
 const shows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod])
 const queryShows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod])
 const episode = ref({})
-
-const emits = defineEmits(['resetFilter'])
+const showCardKey = ref(0)
 
 const getRandomEpisode = () => {
   const show = _.shuffle(queryShows.value)[0]
@@ -91,7 +88,11 @@ const updateEpisode = () => {
 
 const resetFilter = () => {
   queryShows.value = [tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod]
-  emits('resetFilter')
+  reloadShowCards()
+}
+
+const reloadShowCards = () => {
+  showCardKey.value++
 }
 
 const getShowTitle = (show) => {

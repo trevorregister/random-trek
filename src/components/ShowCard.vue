@@ -5,7 +5,6 @@
     height="200px"
     width="200px"
     :class="isFiltered ? 'opacity-50' : 'opacity-100'"
-    @reset-filter="handleFilterReset"
     />
 </template>
 
@@ -65,11 +64,6 @@ const getImage = (showTitle) => {
 const toggleIsFiltered = (showTitle) => {
     isFiltered.value = !isFiltered.value
     emits('updateFilter', showTitle)
-}
-
-const handleFilterReset = () => {
-    console.log('resetting filter')
-    isFiltered.value = false
 }
 
 onBeforeMount(() => {
