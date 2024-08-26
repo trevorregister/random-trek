@@ -33,6 +33,9 @@
             />
           </v-col>
         </v-row>
+        <v-row class="mt-5 pt-5">
+          <p><a href="https://github.com/trevorregister/random-trek">Code on GitHub</a></p>
+        </v-row>
       </v-container>
     </v-img>
     </v-main>
