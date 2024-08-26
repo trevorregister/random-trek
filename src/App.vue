@@ -27,6 +27,7 @@
         <v-row class="pa-1">
           <v-col v-for="show in shows" :key=showCardKey class="pa-2">
             <ShowCard
+              :imgSrc="getImage(getShowTitle(show))"
               :showTitle="getShowTitle(show)"
               @update-filter="handleUpdateFilter"
             />
@@ -163,6 +164,33 @@ const handleUpdateFilter = (showTitle) => {
       } else {
         queryShows.value.push(showToUpdate)
       }
+}
+
+const getImage = (showTitle) => {
+    switch(showTitle) {
+        case 'The Next Generation':
+            return 'src/assets/tng.jpg'
+        case 'Deep Space Nine':
+            return 'src/assets/ds9.jpeg'
+        case 'Enterprise':
+            return 'src/assets/ent.jpg'
+        case 'The Original Series':
+            return 'src/assets/tos.jpg'
+        case 'Discovery':
+            return 'src/assets/disc.png'
+        case 'Voyager':
+            return 'src/assets/voy.jpg'
+        case 'Lower Decks':
+            return 'src/assets/ld.jpg'
+        case 'Strange New Worlds':
+            return 'src/assets/snw.jpg'
+        case 'Animated Series':
+            return 'src/assets/tas.jpg'
+        case 'Picard':
+            return 'src/assets/pic.jpg'
+        case 'Prodigy':
+            return 'src/assets/prod.png'
+    }
 }
 
 onBeforeMount(() => {
