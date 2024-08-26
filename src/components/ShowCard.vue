@@ -1,7 +1,7 @@
 <template>
     <v-card
     @click="toggleIsFiltered(showTitle)"
-    :image="`src/assets/${imgSrc}`"
+    :image="`./assets/${imgSrc}`"
     height="200px"
     width="200px"
     :class="isFiltered ? 'opacity-50' : 'opacity-100'"
