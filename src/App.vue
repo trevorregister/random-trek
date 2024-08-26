@@ -1,27 +1,39 @@
 <template>
   <v-app>
     <v-main>
+    <v-img src="./assets/stars.jpeg" cover>
       <v-container>
-          <v-sheet class="ma-2 pa-2">
-            <v-row>
-              <v-col>
-                <h1>{{ episode.showTitle }}</h1>
-                  Season {{episode.season}}, episode {{ episode.number }} : {{ episode.title }}
-                <h1>Synopsis</h1>
-                  {{ episode.synopsis }}
-                <h1>Air Date</h1>
-                  {{ episode.airDate }}
-              </v-col>
-            </v-row>
-            <v-row>
-              <v-col>
-                <v-btn @click="updateEpisode">
-                  Engage!
-                </v-btn>
-              </v-col>
-            </v-row>
-          </v-sheet>
+        <v-row>
+          <v-col>
+            <h1>{{ episode.showTitle }}</h1>
+              Season {{episode.season}}, episode {{ episode.number }} : {{ episode.title }}
+            <h1>Synopsis</h1>
+              {{ episode.synopsis }}
+            <h1>Air Date</h1>
+              {{ episode.airDate }}
+          </v-col>
+        </v-row>
+        <v-row>
+          <v-col>
+            <v-btn @click="updateEpisode" class="bg-white ma-2 pa-2">
+              Engage!
+            </v-btn>
+            <v-btn @click="resetFilter" class="bg-white ma-2 pa-2">
+              Reset filter
+            </v-btn>
+          </v-col>
+        </v-row>
+        <h2 class="pt-5">Click a show to filter it out</h2>
+        <v-row class="pa-1">
+          <v-col v-for="show in shows" :key=showCardKey class="pa-2">
+            <ShowCard
+              :showTitle="getShowTitle(show)"
+              @update-filter="handleUpdateFilter"
+            />
+          </v-col>
+        </v-row>
       </v-container>
+    </v-img>
     </v-main>
   </v-app>
 </template>
@@ -31,16 +43,35 @@ import { ref, onBeforeMount } from 'vue'
 import tngEpisodes from './data/tng.json'
 import ds9Episodes from './data/ds9.json'
 import entEpisodes from './data/ent.json'
+import tosEpisodes from './data/tos.json'
+import voyEpisodes from './data/voy.json'
+import discEpisodes from './data/disc.json' 
+import ldEpisodes from './data/ld.json'
+import snwEpisodes from './data/snw.json'
+import tasEpisodes from './data/tas.json'
+import picEpisodes from './data/pic.json'
+import prodEpisodes from './data/prod.json'
 import _ from 'lodash'
+import ShowCard from './components/ShowCard.vue'
 
 const tng = ref(tngEpisodes)
 const ds9 = ref(ds9Episodes)
 const ent = ref(entEpisodes)
-const shows = ref([tng, ds9, ent])
+const tos = ref(tosEpisodes)
+const voy = ref(voyEpisodes)
+const disc = ref(discEpisodes)
+const ld = ref(ldEpisodes)
+const snw = ref(snwEpisodes)
+const tas = ref(tasEpisodes)
+const pic = ref(picEpisodes)
+const prod = ref(prodEpisodes)
+const shows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod])
+const queryShows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod])
 const episode = ref({})
+const showCardKey = ref(0)
 
 const getRandomEpisode = () => {
-  const show = _.shuffle(shows.value)[0]
+  const show = _.shuffle(queryShows.value)[0]
   const episode = _.shuffle(show.value)[0]
   const showTitle = getShowTitle(show)
   episode.showTitle = showTitle
@@ -48,7 +79,20 @@ const getRandomEpisode = () => {
 }
 
 const updateEpisode = () => {
-  episode.value = getRandomEpisode()
+  if(queryShows.value.length === 0){
+    alert('Please select at least one show')
+  } else {
+    episode.value = getRandomEpisode()
+  }
+}
+
+const resetFilter = () => {
+  queryShows.value = [tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod]
+  reloadShowCards()
+}
+
+const reloadShowCards = () => {
+  showCardKey.value++
 }
 
 const getShowTitle = (show) => {
@@ -59,7 +103,66 @@ const getShowTitle = (show) => {
       return 'Deep Space Nine'
     case ent: 
       return 'Enterprise'
+    case tos:
+      return 'The Original Series'
+    case voy:
+      return 'Voyager'
+    case disc:
+      return 'Discovery'
+    case ld:
+      return 'Lower Decks'
+    case snw:
+      return 'Strange New Worlds'
+    case tas:
+      return 'Animated Series'
+    case pic:
+      return 'Picard'
+    case prod:
+      return 'Prodigy'
   }
+}
+const handleUpdateFilter = (showTitle) => {
+  let showToUpdate
+  switch(showTitle) {
+    case 'The Next Generation':
+      showToUpdate = tng
+      break
+    case 'Deep Space Nine':
+      showToUpdate = ds9
+      break
+    case 'Enterprise':
+      showToUpdate = ent
+      break
+    case 'The Original Series':
+      showToUpdate = tos
+      break
+    case 'Voyager':
+      showToUpdate = voy
+      break
+    case 'Discovery':
+      showToUpdate = disc
+      break
+    case 'Lower Decks':
+      showToUpdate = ld
+      break
+    case 'Strange New Worlds':
+      showToUpdate = snw
+      break
+    case 'Animated Series':
+      showToUpdate = tas
+      break
+    case 'Picard':
+      showToUpdate = pic
+      break
+    case 'Prodigy':
+      showToUpdate = prod
+      break
+  }
+  if(_.includes(queryShows.value, showToUpdate)){
+        queryShows.value = _.without(queryShows.value, showToUpdate)
+      } else {
+        queryShows.value.push(showToUpdate)
+      }
 }
 
 onBeforeMount(() => {
