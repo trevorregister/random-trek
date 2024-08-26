@@ -181,27 +181,27 @@ const handleUpdateFilter = (showTitle) => {
 const getImage = (showTitle) => {
     switch(showTitle) {
         case 'The Next Generation':
-            return 'src/assets/tng.jpg'
+            return tngImg
         case 'Deep Space Nine':
-            return 'src/assets/ds9.jpeg'
+            return ds9Img
         case 'Enterprise':
-            return 'src/assets/ent.jpg'
+            return entImg
         case 'The Original Series':
-            return 'src/assets/tos.jpg'
+            return tosImg
         case 'Discovery':
-            return 'src/assets/disc.png'
+            return discImg
         case 'Voyager':
-            return 'src/assets/voy.jpg'
+            return voyImg
         case 'Lower Decks':
-            return 'src/assets/ld.jpg'
+            return ldImg
         case 'Strange New Worlds':
-            return 'src/assets/snw.jpg'
+            return snwImg
         case 'Animated Series':
-            return 'src/assets/tas.jpg'
+            return tasImg
         case 'Picard':
-            return 'src/assets/pic.jpg'
+            return picImg
         case 'Prodigy':
-            return 'src/assets/prod.png'
+            return prodImg
     }
 }
 
