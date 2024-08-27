@@ -5,6 +5,7 @@
     height="200px"
     width="200px"
     :class="isFiltered ? 'opacity-50' : 'opacity-100'"
+    rounded="lg"
     />
 </template>
 
