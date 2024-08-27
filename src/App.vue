@@ -55,7 +55,7 @@ import snwEpisodes from './data/snw.json'
 import tasEpisodes from './data/tas.json'
 import picEpisodes from './data/pic.json'
 import prodEpisodes from './data/prod.json'
-//Forces Vite to recognize the images as assets and bundle them in the build
+
 import discImg from './assets/disc.png'
 import ds9Img from './assets/ds9.jpeg'
 import entImg from './assets/ent.jpg'
@@ -67,6 +67,7 @@ import tasImg from './assets/tas.jpg'
 import tngImg from './assets/tng.jpg'
 import tosImg from './assets/tos.jpg'
 import voyImg from './assets/voy.jpg'
+
 import _ from 'lodash'
 import ShowCard from './components/ShowCard.vue'
 
