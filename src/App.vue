@@ -17,7 +17,7 @@
         <v-row>
           <v-col>
             <v-btn @click="updateEpisode" class="bg-white ma-2 pa-2">
-              Engage!
+              Get a new episode
             </v-btn>
             <v-btn @click="resetFilter" class="bg-white ma-2 pa-2">
               Reset filter
