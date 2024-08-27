@@ -3,13 +3,14 @@
     <v-main>
     <v-img src="./assets/stars.jpeg" cover>
       <v-container>
+        <h1>Not sure episode what to watch? Why not queue up...</h1>
         <v-row>
           <v-col>
-            <h1>{{ episode.showTitle }}</h1>
+            <h2>{{ episode.showTitle }}</h2>
               Season {{episode.season}}, episode {{ episode.number }} : {{ episode.title }}
-            <h1>Synopsis</h1>
+            <h2>Synopsis</h2>
               {{ episode.synopsis }}
-            <h1>Air Date</h1>
+            <h2>Air Date</h2>
               {{ episode.airDate }}
           </v-col>
         </v-row>
