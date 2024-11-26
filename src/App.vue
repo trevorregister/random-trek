@@ -3,6 +3,7 @@
     <v-main>
     <v-img src="./assets/stars.jpeg" cover>
       <v-container>
+        <h1>Not sure episode what to watch? Why not queue up...</h1>
         <v-row>
           <v-col>
             <h1>{{ episode.showTitle }}</h1>
@@ -25,7 +26,7 @@
         </v-row>
         <h2 class="pt-5">Click a show to filter it out</h2>
         <v-row class="pa-1">
-          <v-col v-for="show in shows" :key=showCardKey class="pa-2">
+          <v-col v-for="show in shows" :key=showCardKey class="pa-2" cols="12" sm="6" md="4" lg="3">
             <ShowCard
               :imgSrc="getImage(show)"
               :showTitle="getShowTitle(show)"
@@ -55,6 +56,7 @@ import snwEpisodes from './data/snw.json'
 import tasEpisodes from './data/tas.json'
 import picEpisodes from './data/pic.json'
 import prodEpisodes from './data/prod.json'
+import shortEpisodes from './data/short.json'
 //Forces Vite to recognize the images as assets and bundle them in the build
 import discImg from './assets/disc.png'
 import ds9Img from './assets/ds9.jpeg'
@@ -67,6 +69,7 @@ import tasImg from './assets/tas.jpg'
 import tngImg from './assets/tng.jpg'
 import tosImg from './assets/tos.jpg'
 import voyImg from './assets/voy.jpg'
+import shortImg from './assets/short.jpg'
 import _ from 'lodash'
 import ShowCard from './components/ShowCard.vue'
 
@@ -81,8 +84,9 @@ const snw = ref(snwEpisodes)
 const tas = ref(tasEpisodes)
 const pic = ref(picEpisodes)
 const prod = ref(prodEpisodes)
-const shows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod])
-const queryShows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod])
+const short = ref(shortEpisodes)
+const shows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod, short])
+const queryShows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod, short])
 const episode = ref({})
 const showCardKey = ref(0)
 
@@ -103,7 +107,7 @@ const updateEpisode = () => {
 }
 
 const resetFilter = () => {
-  queryShows.value = [tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod]
+  queryShows.value = [tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod, short]
   reloadShowCards()
 }
 
@@ -135,45 +139,41 @@ const getShowTitle = (show) => {
       return 'Picard'
     case prod:
       return 'Prodigy'
+    case short:
+      return 'Short'
+  }
+}
+
+const getShowFromTitle = (showTitle) => {
+  switch(showTitle) {
+    case 'The Next Generation':
+      return tng
+    case 'Deep Space Nine':
+      return ds9
+    case 'Enterprise':
+      return ent
+    case 'The Original Series':
+      return tos
+    case 'Voyager':
+      return voy
+    case 'Discovery':
+      return disc
+    case 'Lower Decks':
+      return ld
+    case 'Strange New Worlds':
+      return snw
+    case 'Animated Series':
+      return tas
+    case 'Picard':
+      return pic
+    case 'Prodigy':
+      return prod
+    case 'Short':
+      return short
   }
 }
 const handleUpdateFilter = (showTitle) => {
-  let showToUpdate
-  switch(showTitle) {
-    case 'The Next Generation':
-      showToUpdate = tng
-      break
-    case 'Deep Space Nine':
-      showToUpdate = ds9
-      break
-    case 'Enterprise':
-      showToUpdate = ent
-      break
-    case 'The Original Series':
-      showToUpdate = tos
-      break
-    case 'Voyager':
-      showToUpdate = voy
-      break
-    case 'Discovery':
-      showToUpdate = disc
-      break
-    case 'Lower Decks':
-      showToUpdate = ld
-      break
-    case 'Strange New Worlds':
-      showToUpdate = snw
-      break
-    case 'Animated Series':
-      showToUpdate = tas
-      break
-    case 'Picard':
-      showToUpdate = pic
-      break
-    case 'Prodigy':
-      showToUpdate = prod
-      break
-  }
+  const showToUpdate = getShowFromTitle(showTitle)
   if(_.includes(queryShows.value, showToUpdate)){
         queryShows.value = _.without(queryShows.value, showToUpdate)
       } else {
@@ -206,6 +206,8 @@ const getImage = (show) => {
             return picImg
         case 'Prodigy':
             return prodImg
+        case 'Short':
+            return shortImg
     }
 }
 
