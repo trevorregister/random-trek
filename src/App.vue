@@ -6,18 +6,18 @@
         <h1>Not sure episode what to watch? Why not queue up...</h1>
         <v-row>
           <v-col>
-            <h1>{{ episode.showTitle }}</h1>
+            <h2>{{ episode.showTitle }}</h2>
               Season {{episode.season}}, episode {{ episode.number }} : {{ episode.title }}
-            <h1>Synopsis</h1>
+            <h2>Synopsis</h2>
               {{ episode.synopsis }}
-            <h1>Air Date</h1>
+            <h2>Air Date</h2>
               {{ episode.airDate }}
           </v-col>
         </v-row>
         <v-row>
           <v-col>
             <v-btn @click="updateEpisode" class="bg-white ma-2 pa-2">
-              Engage!
+              Get a new episode
             </v-btn>
             <v-btn @click="resetFilter" class="bg-white ma-2 pa-2">
               Reset filter
@@ -56,7 +56,6 @@ import snwEpisodes from './data/snw.json'
 import tasEpisodes from './data/tas.json'
 import picEpisodes from './data/pic.json'
 import prodEpisodes from './data/prod.json'
-import shortEpisodes from './data/short.json'
 //Forces Vite to recognize the images as assets and bundle them in the build
 import discImg from './assets/disc.png'
 import ds9Img from './assets/ds9.jpeg'
@@ -69,7 +68,6 @@ import tasImg from './assets/tas.jpg'
 import tngImg from './assets/tng.jpg'
 import tosImg from './assets/tos.jpg'
 import voyImg from './assets/voy.jpg'
-import shortImg from './assets/short.jpg'
 import _ from 'lodash'
 import ShowCard from './components/ShowCard.vue'
 
