@@ -11,7 +11,6 @@
 <script setup>
 import { 
     ref, 
-    onBeforeMount, 
     defineEmits } from 'vue'
 
 const props = defineProps({
