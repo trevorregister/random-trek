@@ -26,6 +26,7 @@
         <div class="flex gap-3 mb-10">
           <Button @click="updateEpisode">Engage!</Button>
           <Button @click="resetFilter" variant="outline">Reset filter</Button>
+          <Button @click="saveFilter" variant="outline">Save filter</Button>
         </div>
 
         <!-- Show grid -->
@@ -38,6 +39,7 @@
             :key="showCardKey"
             :imgSrc="getImage(show)"
             :showTitle="getShowTitle(show)"
+            :initialIsFiltered="!queryShows.includes(show)"
             @update-filter="handleUpdateFilter"
           />
         </div>
@@ -45,10 +47,12 @@
         <!-- Footer -->
         <div class="mt-12 text-center">
           <a
-            href="https://github.com/trevorregister/random-trek"
-            class="text-white/30 hover:text-amber-400 text-sm transition-colors"
+            href="https://buymeacoffee.com/trevorregister"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="inline-block bg-amber-400 hover:bg-amber-300 text-black font-semibold text-sm px-4 py-2 rounded-lg transition-colors"
           >
-            Code on GitHub
+            ☕ Buy me a coffee
           </a>
         </div>
 
@@ -104,6 +108,7 @@ const shows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod, short
 const queryShows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod, short])
 const episode = ref({})
 const showCardKey = ref(0)
+const FILTER_KEY = 'random-trek-filter'
 
 const getRandomEpisode = () => {
   const show = _.shuffle(queryShows.value)[0]
@@ -164,6 +169,11 @@ const getShowFromTitle = (showTitle) => {
   }
 }
 
+const saveFilter = () => {
+  const titles = queryShows.value.map(show => getShowTitle(show))
+  localStorage.setItem(FILTER_KEY, JSON.stringify(titles))
+}
+
 const handleUpdateFilter = (showTitle) => {
   const showToUpdate = getShowFromTitle(showTitle)
   if(_.includes(queryShows.value, showToUpdate)){
@@ -192,6 +202,11 @@ const getImage = (show) => {
 }
 
 onBeforeMount(() => {
+  const savedTitles = JSON.parse(localStorage.getItem(FILTER_KEY) ?? 'null')
+  if (savedTitles) {
+    queryShows.value = savedTitles.map(getShowFromTitle).filter(Boolean)
+    reloadShowCards()
+  }
   updateEpisode()
 })
 </script>

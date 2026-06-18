@@ -17,11 +17,12 @@ import { ref } from 'vue'
 
 const props = defineProps({
   showTitle: String,
-  imgSrc: String
+  imgSrc: String,
+  initialIsFiltered: { type: Boolean, default: false }
 })
 
 const emits = defineEmits(['updateFilter'])
-const isFiltered = ref(false)
+const isFiltered = ref(props.initialIsFiltered)
 
 const toggleIsFiltered = (showTitle) => {
   isFiltered.value = !isFiltered.value
