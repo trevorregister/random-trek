@@ -14,19 +14,32 @@
         <div class="bg-white/5 backdrop-blur-sm border border-white/10 rounded-xl p-6 mb-6 text-white">
           <h2 class="text-3xl font-bold text-amber-300">{{ episode.showTitle }}</h2>
           <p class="text-lg mt-2 text-white/80">
-            Season {{ episode.season }}, Episode {{ episode.number }}: {{ episode.title }}
+            Season {{ episode.season }}, Episode {{ episode.number ?? episode.episode }}: {{ episode.title }}
           </p>
           <h3 class="text-sm font-semibold uppercase tracking-widest text-amber-400/70 mt-5">Synopsis</h3>
           <p class="mt-1 text-white/75 leading-relaxed">{{ episode.synopsis }}</p>
           <h3 class="text-sm font-semibold uppercase tracking-widest text-amber-400/70 mt-5">Air Date</h3>
           <p class="mt-1 text-white/75">{{ episode.airDate }}</p>
+          <div class="mt-5">
+            <button
+              v-if="episode.id && !excludedIds.has(episode.id)"
+              class="text-sm text-white/40 hover:text-red-400 transition-colors"
+              @click="excludeEpisode(episode)"
+            >Exclude this episode</button>
+            <span v-else-if="episode.id && excludedIds.has(episode.id)" class="text-sm text-white/30 italic">
+              Excluded
+            </span>
+          </div>
         </div>
 
         <!-- Action buttons -->
-        <div class="flex gap-3 mb-10">
+        <div class="flex gap-3 mb-10 flex-wrap">
           <Button @click="updateEpisode">Engage!</Button>
           <Button @click="resetFilter" variant="outline">Reset filter</Button>
           <Button @click="saveFilter" variant="outline">Save filter</Button>
+          <Button @click="showExclusionsModal = true" variant="outline">
+            Exclusions{{ excludedIds.size > 0 ? ` (${excludedIds.size})` : '' }}
+          </Button>
         </div>
 
         <!-- Show grid -->
@@ -43,6 +56,15 @@
             @update-filter="handleUpdateFilter"
           />
         </div>
+
+        <!-- Exclusions modal -->
+        <ExclusionsModal
+          v-if="showExclusionsModal"
+          :exclusions="excludedEpisodes"
+          @close="showExclusionsModal = false"
+          @remove="removeExclusion"
+          @clear-all="clearAllExclusions"
+        />
 
         <!-- Footer -->
         <div class="mt-12 text-center">
@@ -62,7 +84,7 @@
 </template>
 
 <script setup>
-import { ref, onBeforeMount } from 'vue'
+import { ref, computed, onBeforeMount } from 'vue'
 import tngEpisodes from './data/tng.json'
 import ds9Episodes from './data/ds9.json'
 import entEpisodes from './data/ent.json'
@@ -91,6 +113,7 @@ import starsImg from './assets/stars.jpeg'
 import _ from 'lodash'
 import ShowCard from './components/ShowCard.vue'
 import Button from './components/ui/Button.vue'
+import ExclusionsModal from './components/ExclusionsModal.vue'
 
 const tng = ref(tngEpisodes)
 const ds9 = ref(ds9Episodes)
@@ -109,21 +132,53 @@ const queryShows = ref([tng, ds9, ent, tos, voy, disc, ld, snw, tas, pic, prod, 
 const episode = ref({})
 const showCardKey = ref(0)
 const FILTER_KEY = 'random-trek-filter'
+const EXCLUSIONS_KEY = 'random-trek-exclusions'
+const showExclusionsModal = ref(false)
+const excludedEpisodes = ref([])
+const excludedIds = computed(() => new Set(excludedEpisodes.value.map(ep => ep.id)))
 
 const getRandomEpisode = () => {
-  const show = _.shuffle(queryShows.value)[0]
-  const episode = _.shuffle(show.value)[0]
-  const showTitle = getShowTitle(show)
-  episode.showTitle = showTitle
-  return episode
+  const ids = excludedIds.value
+  const eligible = queryShows.value.flatMap(show => {
+    const title = getShowTitle(show)
+    return show.value.filter(ep => !ids.has(ep.id)).map(ep => ({ ...ep, showTitle: title }))
+  })
+  if (eligible.length === 0) return null
+  return _.shuffle(eligible)[0]
 }
 
 const updateEpisode = () => {
   if(queryShows.value.length === 0){
     alert('Please select at least one show')
   } else {
-    episode.value = getRandomEpisode()
+    const result = getRandomEpisode()
+    if (result === null) {
+      alert('All episodes in the selected shows are excluded.')
+    } else {
+      episode.value = result
+    }
   }
+}
+
+const excludeEpisode = (ep) => {
+  if (!excludedIds.value.has(ep.id)) {
+    excludedEpisodes.value = [...excludedEpisodes.value, { ...ep }]
+    saveExclusions()
+  }
+}
+
+const removeExclusion = (id) => {
+  excludedEpisodes.value = excludedEpisodes.value.filter(ep => ep.id !== id)
+  saveExclusions()
+}
+
+const clearAllExclusions = () => {
+  excludedEpisodes.value = []
+  saveExclusions()
+}
+
+const saveExclusions = () => {
+  localStorage.setItem(EXCLUSIONS_KEY, JSON.stringify(excludedEpisodes.value))
 }
 
 const resetFilter = () => {
@@ -206,6 +261,10 @@ onBeforeMount(() => {
   if (savedTitles) {
     queryShows.value = savedTitles.map(getShowFromTitle).filter(Boolean)
     reloadShowCards()
+  }
+  const savedExclusions = JSON.parse(localStorage.getItem(EXCLUSIONS_KEY) ?? 'null')
+  if (savedExclusions) {
+    excludedEpisodes.value = savedExclusions
   }
   updateEpisode()
 })
