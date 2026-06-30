@@ -23,7 +23,7 @@
           <div class="mt-5">
             <button
               v-if="episode.id && !excludedIds.has(episode.id)"
-              class="text-sm text-white/40 hover:text-red-400 transition-colors"
+              class="text-sm font-medium px-3 py-1.5 rounded-md border border-red-500/40 text-red-400 hover:bg-red-500/20 hover:border-red-400 transition-colors"
               @click="excludeEpisode(episode)"
             >Exclude this episode</button>
             <span v-else-if="episode.id && excludedIds.has(episode.id)" class="text-sm text-white/30 italic">
