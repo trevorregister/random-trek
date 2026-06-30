@@ -139,12 +139,13 @@ const excludedIds = computed(() => new Set(excludedEpisodes.value.map(ep => ep.i
 
 const getRandomEpisode = () => {
   const ids = excludedIds.value
-  const eligible = queryShows.value.flatMap(show => {
-    const title = getShowTitle(show)
-    return show.value.filter(ep => !ids.has(ep.id)).map(ep => ({ ...ep, showTitle: title }))
-  })
-  if (eligible.length === 0) return null
-  return _.shuffle(eligible)[0]
+  const eligibleShows = queryShows.value.filter(show =>
+    show.value.some(ep => !ids.has(ep.id))
+  )
+  if (eligibleShows.length === 0) return null
+  const show = _.shuffle(eligibleShows)[0]
+  const episode = _.shuffle(show.value.filter(ep => !ids.has(ep.id)))[0]
+  return { ...episode, showTitle: getShowTitle(show) }
 }
 
 const updateEpisode = () => {
