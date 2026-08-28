@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build && node scripts/prerender.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postinstall": "playwright install --with-deps chromium || playwright install chromium || true"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",
